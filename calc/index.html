@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>Calc</title>
+</head>
+
+<body>
+	
+<div class="calc__storage">
+	<ol class="calc__storage__items">
+		<li></li>
+	</ol>
+</div>
+
+<div class="calc">
+	<input onclick="calc('.calc__value')" class="calc__value" value="0">
+	<input onclick="calc('.calc__value2')" class="calc__value2" value="">
+	<div onclick="calc('reset')" class="calc__item">C</div>
+	<div onclick="calc('%')" class="calc__item blue">%</div>
+	<div onclick="calc('^')" class="calc__item blue">^</div>
+	<div onclick="calc('√')" class="calc__item blue">sq</div>
+	<div onclick="calc(7)" class="calc__item">7</div>
+	<div onclick="calc(8)" class="calc__item">8</div>
+	<div onclick="calc(9)" class="calc__item">9</div>
+	<div onclick="calc('/')" class="calc__item blue">/</div>
+	<div onclick="calc(4)" class="calc__item">4</div>
+	<div onclick="calc(5)" class="calc__item">5</div>
+	<div onclick="calc(6)" class="calc__item">6</div>
+	<div onclick="calc('*')" class="calc__item blue">X</div>
+	<div onclick="calc(1)" class="calc__item">1</div>
+	<div onclick="calc(2)" class="calc__item">2</div>
+	<div onclick="calc(3)" class="calc__item">3</div>
+	<div onclick="calc('-')" class="calc__item blue">-</div>
+	<div onclick="calc(0)" class="calc__item">0</div>
+	<div onclick="calc('.')" class="calc__item">.</div>
+	<div onclick="calc('=')" class="calc__item red">=</div>
+	<div onclick="calc('+')" class="calc__item blue">+</div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
